@@ -2,7 +2,7 @@ import { React } from "react";
 
 import profile from "../img/profile.jpg";
 //styles
-import styled from "styled-components";
+
 import { About, Description, Image, Hide } from "../styles";
 //Import Framer Motion
 import { motion } from "framer-motion";

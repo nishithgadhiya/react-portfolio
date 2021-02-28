@@ -5,7 +5,6 @@ import { projectsState } from "../projectsState.js";
 //Animations
 import { motion } from "framer-motion";
 import { pageAnimation, lineAnimation } from "../animation";
-import { Link } from "react-router-dom";
 
 const ProjectDetail = () => {
   const history = useHistory();

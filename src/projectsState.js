@@ -7,7 +7,7 @@ import jscoloors from "./img/jscoloors.JPG";
 import jsbeatmaker from "./img/jsbeatmaker.JPG";
 import reactwaves from "./img/reactwaves.JPG";
 import reactignite from "./img/reactignite.JPG";
-import reactcapture from "./img/reactcapture.JPG";
+import reactportfolio from "./img/reactportfolio.JPG";
 
 export const projectsState = () => {
   return [
@@ -83,8 +83,8 @@ export const projectsState = () => {
             "Game information React app. Showcasing use of JSON Rawg web API, Redux, props, useeffect and other React conepts",
         },
         {
-          link: `https://reactcapture.netlify.app/`,
-          img: reactcapture,
+          link: `https://react-js-portfolio.netlify.app/`,
+          img: reactportfolio,
           title: "Portfolio",
           description:
             "This React Portfolio. Use of States, props, styledComponents, reusable components and animation",
