@@ -81,7 +81,6 @@ const Work = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
   padding: 5rem 10rem;
-  zoom: 0.9;
   @media (max-width: 786px) {
     padding: 2rem 2rem;
   }
