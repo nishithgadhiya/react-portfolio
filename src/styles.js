@@ -8,6 +8,7 @@ export const About = styled(motion.div)`
   justify-content: space-between;
   padding: 5rem 10rem;
   color: white;
+  zoom:0.75;
   @media (max-width: 786px) {
     display: block;
     padding: 2rem 2rem;
