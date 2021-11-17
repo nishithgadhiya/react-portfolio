@@ -9,13 +9,13 @@ import { pageAnimation, lineAnimation } from "../animation";
 const ProjectDetail = () => {
   const history = useHistory();
   const url = history.location.pathname;
-  const [projects, setProjects] = useState(projectsState);
-  //const projects = useState(projectsState);
+  //const [projects, setProjects] = useState(projectsState);
+  const projects = useState(projectsState);
   const [project, setProject] = useState(null);
 
   //Use Effect
   useEffect(() => {
-    const currentProject = projects.filter(
+    const currentProject = projects[0].filter(
       (stateProject) => stateProject.url === url
     );
     setProject(currentProject[0]);
