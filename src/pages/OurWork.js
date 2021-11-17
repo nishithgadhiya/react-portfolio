@@ -80,7 +80,7 @@ const OurWork = () => {
 const Work = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
-  padding: 5rem 10rem;
+  padding: 2rem 10rem;
   zoom: 0.9;
   @media (max-width: 786px) {
     padding: 2rem 2rem;
@@ -88,10 +88,10 @@ const Work = styled(motion.div)`
   h2 {
     padding: 1rem 0rem;
   }
-`;
+`
 
 const Project = styled(motion.div)`
-  padding-bottom: 10rem;
+  padding-bottom: 4rem;
   .line {
     height: 0.5rem;
     background: #23d997;
@@ -99,10 +99,10 @@ const Project = styled(motion.div)`
   }
   img {
     width: 100%;
-    height: 70vh;
-    object-fit: cover;
+    height: 80vh;
+    object-fit: cover center;
   }
-`;
+`
 
 const Hide = styled.div`
   overflow: hidden;
