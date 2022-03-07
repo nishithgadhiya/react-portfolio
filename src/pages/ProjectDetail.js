@@ -133,7 +133,7 @@ const ProjectInf = ({ title, description }) => {
     <ProjectStyle>
       <h3>{title}</h3>
       <motion.div className="line" variants={lineAnimation}></motion.div>
-      <p>{description}</p>
+      <p style={{ fontSize: "1rem" }}>{description}</p>
     </ProjectStyle>
   );
 };
