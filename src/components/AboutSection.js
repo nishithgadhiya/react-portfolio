@@ -29,8 +29,8 @@ const AboutSection = () => {
           </Hide>
         </motion.div>
         <motion.p variants={fade}>
-          Self-taught frontend developer. I love creativity and I think Frontend
-          development is one of the way to showcase.
+          Constantly putting efforts into becoming a better professional 
+          in the industry.
         </motion.p>
         <motion.button variants={fade}>
           <Link to="/contact">Contact Me</Link>
