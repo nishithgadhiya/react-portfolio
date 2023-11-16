@@ -33,7 +33,7 @@ const ContactUs = () => {
                 <img src={linkedin} alt="linkedin" />
               </a>
               <a
-                href="https://www.github.com/suijaa"
+                href="https://github.com/nishithgadhiya"
                 target="_blank"
                 rel="noreferrer"
               >
